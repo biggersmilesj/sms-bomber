@@ -10,6 +10,6 @@ def bomb():
     r=requests.post(url = urll, data = DATA)
 
 for i in range(int(sys.argv[2])):
-    time.sleep(random.randint(5, 20))
+    time.sleep(random.randint(0, 3))
     print(i)
     bomb()
